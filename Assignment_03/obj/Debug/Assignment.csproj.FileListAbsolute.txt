@@ -1,0 +1,13 @@
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\bin\Debug\Assignment.exe
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\bin\Debug\Assignment.pdb
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.frm_Add_Student_Detail.resources
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.frm_login.resources
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.frm_Search_Student.resources
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.frm_Student_List.resources
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.exe
+C:\Users\omkar\OneDrive\Desktop\omkar\Assignment\obj\Debug\Assignment.pdb
