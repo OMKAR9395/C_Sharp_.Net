@@ -111,5 +111,10 @@ namespace Picture_Box_Assignment
                 View_Image("Select Image From Image_List where Id = " + ID + "", pb_Image);
             }
         }
+
+        private void pb_Image_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -49,6 +49,7 @@ namespace Picture_Box_Assignment
             this.pb_Image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_Image.TabIndex = 27;
             this.pb_Image.TabStop = false;
+            this.pb_Image.Click += new System.EventHandler(this.pb_Image_Click);
             // 
             // btn_Search_Image
             // 

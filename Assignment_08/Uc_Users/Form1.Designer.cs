@@ -94,12 +94,19 @@ namespace Uc_Users
             // 
             // cmb_User_Role
             // 
+            this.cmb_User_Role.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_User_Role.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_User_Role.FormattingEnabled = true;
+            this.cmb_User_Role.Items.AddRange(new object[] {
+            "Admin",
+            "Manager",
+            "Cashier",
+            "Staff"});
             this.cmb_User_Role.Location = new System.Drawing.Point(633, 228);
             this.cmb_User_Role.Name = "cmb_User_Role";
             this.cmb_User_Role.Size = new System.Drawing.Size(378, 37);
             this.cmb_User_Role.TabIndex = 2;
+            this.cmb_User_Role.SelectedIndexChanged += new System.EventHandler(this.cmb_User_Role_SelectedIndexChanged);
             // 
             // cmb_User_Name
             // 
@@ -130,6 +137,7 @@ namespace Uc_Users
             this.btn_Submit.TabIndex = 4;
             this.btn_Submit.Text = "Submit";
             this.btn_Submit.UseVisualStyleBackColor = false;
+            this.btn_Submit.Click += new System.EventHandler(this.btn_Submit_Click);
             // 
             // frm_Login
             // 
@@ -147,7 +155,9 @@ namespace Uc_Users
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frm_Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Form";
+            this.Load += new System.EventHandler(this.frm_Login_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

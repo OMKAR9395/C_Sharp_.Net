@@ -55,6 +55,7 @@ namespace Uc_Users
             this.btn_Update_User.TabIndex = 1;
             this.btn_Update_User.Text = "Update User";
             this.btn_Update_User.UseVisualStyleBackColor = false;
+            this.btn_Update_User.Click += new System.EventHandler(this.btn_Update_User_Click);
             // 
             // btn_Delete_User
             // 
@@ -77,6 +78,7 @@ namespace Uc_Users
             this.btn_Add_User.TabIndex = 1;
             this.btn_Add_User.Text = "Add User";
             this.btn_Add_User.UseVisualStyleBackColor = false;
+            this.btn_Add_User.Click += new System.EventHandler(this.btn_Add_User_Click);
             // 
             // UC_Header
             // 
