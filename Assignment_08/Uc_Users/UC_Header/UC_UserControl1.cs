@@ -19,23 +19,33 @@ namespace Uc_Users
 
         private void btn_Add_User_Click(object sender, EventArgs e)
         {
-            UC.AddUser Obj = new UC.AddUser();
-/*
+            UC.UC_Add_User Obj = new UC.UC_Add_User();
+
             frm_Main_Form.pnl_Container.Controls.Clear();
             frm_Main_Form.pnl_Container.Controls.Add(Obj);
             Obj.Show();
-*/
+
         }
 
         private void btn_Update_User_Click(object sender, EventArgs e)
         {
             UC.UC_Update Obj = new UC.UC_Update();
 
-            /*
-             * frm_Main_Form.pnl_Container.Controls.Clear();
+
+            frm_Main_Form.pnl_Container.Controls.Clear();
             frm_Main_Form.pnl_Container.Controls.Add(Obj);
             Obj.Show();
-            */
+
+        }
+
+        private void btn_Delete_User_Click(object sender, EventArgs e)
+        {
+            UC.UC_Delete_User Obj = new UC.UC_Delete_User();
+
+
+            frm_Main_Form.pnl_Container.Controls.Clear();
+            frm_Main_Form.pnl_Container.Controls.Add(Obj);
+            Obj.Show();
         }
     }
 }

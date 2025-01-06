@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35229.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependant_Combo_Box", "Dependant_Combo_Box.csproj", "{125ACDE3-DF21-4BC9-B433-FA4313CCA4C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125ACDE3-DF21-4BC9-B433-FA4313CCA4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125ACDE3-DF21-4BC9-B433-FA4313CCA4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125ACDE3-DF21-4BC9-B433-FA4313CCA4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125ACDE3-DF21-4BC9-B433-FA4313CCA4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41321CDE-168E-4DEA-9014-8482E42C0B17}
+	EndGlobalSection
+EndGlobal

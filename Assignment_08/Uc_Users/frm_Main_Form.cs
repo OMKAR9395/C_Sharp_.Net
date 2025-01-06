@@ -29,17 +29,16 @@ namespace Uc_Users
 
         private void btn_User_Management_Click(object sender, EventArgs e)
         {
-            UC.AddUser Obj = new UC.AddUser();
+            UC.UC_Add_User Obj = new UC.UC_Add_User();
 
             pnl_Container.Controls.Clear();
             pnl_Container.Controls.Add(Obj);
             Obj.Show();
 
-            UserControl UCH = new UserControl();
-
+            UC_Header obj  = new UC_Header();
             pnl_Header.Controls.Clear();
-            pnl_Header.Controls.Add(UCH);
-            UCH.Show();
+            pnl_Header.Controls.Add(obj);
+            Obj.Show();
         }
     }
 }

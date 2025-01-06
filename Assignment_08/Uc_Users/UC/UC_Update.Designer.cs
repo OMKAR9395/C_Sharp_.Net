@@ -29,7 +29,7 @@ namespace Uc_Users.UC
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_Add_User = new System.Windows.Forms.Button();
+            this.btn_Update_User = new System.Windows.Forms.Button();
             this.tb_Password = new System.Windows.Forms.TextBox();
             this.tb_Username = new System.Windows.Forms.TextBox();
             this.cmb_User_Role = new System.Windows.Forms.ComboBox();
@@ -38,16 +38,16 @@ namespace Uc_Users.UC
             this.lbl_User_Role = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btn_Add_User
+            // btn_Update_User
             // 
-            this.btn_Add_User.BackColor = System.Drawing.Color.LightBlue;
-            this.btn_Add_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Add_User.Location = new System.Drawing.Point(389, 468);
-            this.btn_Add_User.Name = "btn_Add_User";
-            this.btn_Add_User.Size = new System.Drawing.Size(267, 70);
-            this.btn_Add_User.TabIndex = 10;
-            this.btn_Add_User.Text = "Add User";
-            this.btn_Add_User.UseVisualStyleBackColor = false;
+            this.btn_Update_User.BackColor = System.Drawing.Color.LightBlue;
+            this.btn_Update_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Update_User.Location = new System.Drawing.Point(389, 468);
+            this.btn_Update_User.Name = "btn_Update_User";
+            this.btn_Update_User.Size = new System.Drawing.Size(267, 70);
+            this.btn_Update_User.TabIndex = 10;
+            this.btn_Update_User.Text = "Update User";
+            this.btn_Update_User.UseVisualStyleBackColor = false;
             // 
             // tb_Password
             // 
@@ -112,7 +112,7 @@ namespace Uc_Users.UC
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.Controls.Add(this.btn_Add_User);
+            this.Controls.Add(this.btn_Update_User);
             this.Controls.Add(this.tb_Password);
             this.Controls.Add(this.tb_Username);
             this.Controls.Add(this.cmb_User_Role);
@@ -128,7 +128,7 @@ namespace Uc_Users.UC
 
         #endregion
 
-        private System.Windows.Forms.Button btn_Add_User;
+        private System.Windows.Forms.Button btn_Update_User;
         private System.Windows.Forms.TextBox tb_Password;
         private System.Windows.Forms.TextBox tb_Username;
         private System.Windows.Forms.ComboBox cmb_User_Role;

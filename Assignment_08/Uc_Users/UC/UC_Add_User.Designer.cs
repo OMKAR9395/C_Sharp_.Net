@@ -1,7 +1,7 @@
 ﻿
 namespace Uc_Users.UC
 {
-    partial class AddUser
+    partial class UC_Add_User
     {
         /// <summary> 
         /// Required designer variable.

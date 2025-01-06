@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Uc_Users.UC
+namespace Dependant_Combo_Box
 {
-    public partial class AddUser : UserControl
+    public partial class frm_Combo_Box : Form
     {
-        public AddUser()
+        public frm_Combo_Box()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

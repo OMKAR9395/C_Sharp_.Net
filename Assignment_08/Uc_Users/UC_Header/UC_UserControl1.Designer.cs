@@ -67,6 +67,7 @@ namespace Uc_Users
             this.btn_Delete_User.TabIndex = 1;
             this.btn_Delete_User.Text = "Delete User";
             this.btn_Delete_User.UseVisualStyleBackColor = false;
+            this.btn_Delete_User.Click += new System.EventHandler(this.btn_Delete_User_Click);
             // 
             // btn_Add_User
             // 
@@ -90,7 +91,7 @@ namespace Uc_Users
             this.Controls.Add(this.btn_Update_User);
             this.Controls.Add(this.lbl_Header);
             this.Name = "UC_Header";
-            this.Size = new System.Drawing.Size(1171, 151);
+            this.Size = new System.Drawing.Size(1176, 151);
             this.ResumeLayout(false);
             this.PerformLayout();
 
