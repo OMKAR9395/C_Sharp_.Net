@@ -169,7 +169,7 @@ namespace Assignment
             this.btn_Search.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btn_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Search.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btn_Search.Location = new System.Drawing.Point(913, 142);
+            this.btn_Search.Location = new System.Drawing.Point(913, 135);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(157, 45);
             this.btn_Search.TabIndex = 15;

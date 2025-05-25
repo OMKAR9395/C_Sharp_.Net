@@ -118,6 +118,7 @@ namespace Assignment
             this.lbl_Error.Size = new System.Drawing.Size(516, 29);
             this.lbl_Error.TabIndex = 6;
             this.lbl_Error.Text = "Please Enter Valid Username And Password";
+            this.lbl_Error.Visible = false;
             // 
             // frm_login
             // 
